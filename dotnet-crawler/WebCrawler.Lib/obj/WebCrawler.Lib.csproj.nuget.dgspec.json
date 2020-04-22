@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sc20018614/Documents/GitHub/Candidate Test Automation/Logan's Code/WebCrawler-master/src/WebCrawler.Lib/WebCrawler.Lib.csproj": {}
+  },
+  "projects": {
+    "/Users/sc20018614/Documents/GitHub/Candidate Test Automation/Logan's Code/WebCrawler-master/src/WebCrawler.Lib/WebCrawler.Lib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sc20018614/Documents/GitHub/Candidate Test Automation/Logan's Code/WebCrawler-master/src/WebCrawler.Lib/WebCrawler.Lib.csproj",
+        "projectName": "WebCrawler.Lib",
+        "projectPath": "/Users/sc20018614/Documents/GitHub/Candidate Test Automation/Logan's Code/WebCrawler-master/src/WebCrawler.Lib/WebCrawler.Lib.csproj",
+        "packagesPath": "/Users/sc20018614/.nuget/packages/",
+        "outputPath": "/Users/sc20018614/Documents/GitHub/Candidate Test Automation/Logan's Code/WebCrawler-master/src/WebCrawler.Lib/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sc20018614/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "htmlagilitypack": {
+              "target": "Package",
+              "version": "[1.11.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
